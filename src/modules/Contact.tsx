@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { Form, Button, FormControl } from "react-bootstrap";
 import { ReactComponent as Phone } from "../assets/phone.svg";
 import { ReactComponent as Website } from "../assets/website.svg";

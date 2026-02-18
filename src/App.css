@@ -173,11 +173,12 @@ h1 {
 
 /* FAQ Section */
 .faq-section {
-  background-color: #f3f3f1;
+  background: linear-gradient(rgb(255, 255, 255) 50%, rgb(246, 244, 242) 100%);
   padding-bottom: 4rem;
   width: 75%;
   margin: 0 auto;
   border-radius: 10px;
+  border: 1px solid rgb(243, 243, 241);
 }
 
 .faq-section h2 {
@@ -328,6 +329,20 @@ h1 {
   gap: 20px;
   width: max-content;
   padding: 20px;
+  animation: scrollTeams 30s linear infinite;
+}
+
+.team-scroll-container:hover .team-scroll-wrapper {
+  animation-play-state: paused;
+}
+
+@keyframes scrollTeams {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .team-card {

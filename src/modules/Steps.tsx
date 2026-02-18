@@ -4,7 +4,6 @@ import { ReactComponent as User } from "../assets/user.svg";
 import { ReactComponent as Redirect } from "../assets/redirect.svg";
 import { ReactComponent as Configure } from "../assets/configure.svg";
 import { ReactComponent as Decode } from "../assets/decode.svg";
-import { ReactComponent as Security } from "../assets/security.svg";
 
 interface Step {
   title: string;

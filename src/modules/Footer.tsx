@@ -1,5 +1,5 @@
 import { Container, Row, Col, Nav } from "react-bootstrap";
-import { Linkedin, Facebook, Instagram, Youtube, Github } from "lucide-react";
+import { Linkedin, Facebook, Instagram, Youtube } from "lucide-react";
 
 import X from "../assets/x.svg";
 
@@ -20,6 +20,7 @@ export const Footer = () => {
               <a
                 href="https://www.linkedin.com/in/securosphere/"
                 target="_blank"
+                rel="noreferrer"
                 className="me-3 social-link"
               >
                 <Linkedin width={24} height={24} />
@@ -27,6 +28,7 @@ export const Footer = () => {
               <a
                 href="https://x.com/SecuroSphere"
                 target="_blank"
+                rel="noreferrer"
                 className="me-3 social-link"
               >
                 <img src={X} width={20} height={20} alt="X" />
@@ -34,6 +36,7 @@ export const Footer = () => {
               <a
                 href="https://www.facebook.com/profile.php?id=61572485515869"
                 target="_blank"
+                rel="noreferrer"
                 className="me-3 social-link"
               >
                 <Facebook width={24} height={24} />
@@ -41,6 +44,7 @@ export const Footer = () => {
               <a
                 href="https://www.instagram.com/securosphereindia/"
                 target="_blank"
+                rel="noreferrer"
                 className="me-3 social-link instagram"
               >
                 <Instagram width={24} height={24} />
@@ -48,6 +52,7 @@ export const Footer = () => {
               <a
                 href="https://www.youtube.com/channel/UCE4dIaHV5yt1ypnMqMLO24Q"
                 target="_blank"
+                rel="noreferrer"
                 className="me-3 social-link youtube"
               >
                 <Youtube width={24} height={24} />

@@ -1,5 +1,4 @@
 import { Badge, Card, Col, Container, Row } from "react-bootstrap";
-import { ReactComponent as Api } from "../assets/api.svg";
 import { ReactComponent as Startup } from "../assets/rocket.svg";
 import { ReactComponent as Company } from "../assets/company.svg";
 

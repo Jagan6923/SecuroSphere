@@ -118,7 +118,7 @@ const AboutSection = () => {
 
         <div className="team-scroll-container">
           <div className="team-scroll-wrapper">
-            {teamMembers.map((member, index) => (
+            {[...teamMembers, ...teamMembers].map((member, index) => (
               <motion.div key={index} className="team-card">
                 <Card className="text-center border-0 shadow-sm p-3 rounded ">
                   <Card.Img
